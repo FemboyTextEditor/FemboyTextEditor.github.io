@@ -42,8 +42,15 @@ pre.smallformat {font-family: inherit; font-size: smaller}
 pre.smalllisp {font-size: smaller}
 span.nocodebreak {white-space:nowrap}
 span.nolinebreak {white-space:nowrap}
-span.roman {font-family:serif; font-weight:normal}
-span.sansserif {font-family:sans-serif; font-weight:normal}
+<!-- span.roman {font-family:serif; font-weight:normal}
+span.sansserif {font-family:sans-serif; font-weight:normal} -->
+@font-face {
+    font-family: Inter;
+    src: url(Inter.ttf);
+}
+body {
+    font-family: Inter, "Lucida Console", monospace;
+}
 ul.no-bullet {list-style: none}
 -->
 </style>
@@ -51,7 +58,7 @@ ul.no-bullet {list-style: none}
 
 </head>
 
-<body lang="en" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+<body lang="en" bgcolor="#000000" text="#FFDAB9" link="#4169E1" vlink="#800080" alink="#FF0000">
 <h1 class="settitle" align="center">The GNU C Reference Manual</h1>
 
 
